@@ -5,8 +5,8 @@ function Navbar() {
   return (
     <div>
       <nav className={styles.nav}>
-        <Link to="/">Home</Link>
-        <Link to="/about">contnet</Link>
+        <Link to="rotas/">Home</Link>
+        <Link to="rotas/about">contnet</Link>
       </nav>
     </div>
   );
